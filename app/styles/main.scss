@@ -1,0 +1,24 @@
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+// add files to customize bootstrap
+@import "_custom-fonts.scss";
+@import "_custom-variables.scss";
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+// your own css/scss
+
+// your own css/scss ends
+
+.bgimage{
+    background-image:url(../images/Pixiv.Fantasia.T.full.1947171.jpg);
+    background-size:cover;
+}
+
+.bgimage-inside{
+    padding-top: 10%;
+}
+
+.banner-color{
+    text-color: aliceblue;
+}
