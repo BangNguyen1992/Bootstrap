@@ -9,6 +9,9 @@
 
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Homemade+Apple' rel='stylesheet' type='text/css'>
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <!-- build:css(.) styles/vendor.css -->
@@ -20,7 +23,7 @@
     <!-- endbuild -->
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
-<!--    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>-->
+    <!--    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>-->
     <!--    <link rel="stylesheet" type="text/css" href="Style.css">-->
     <!-- endbuild -->
 
@@ -34,47 +37,97 @@
     <!-- sisältö alkaa -->
 
     <div class="jumbotron bgimage">
- <div class="container-fluid">
-   <div class="row">
-	
-       <div class="col-sm-12 col-md-12 ">
-        <div class="bgimage-inside"></div>  
-        <div class="banner-color">
-           <h1>BANNER WILL BE HERE</h1>
-        <p>Responsive design</p>
-           </div>
-        <div class="bgimage-inside"></div>
-    </div>
-   </div>
-</div>
+        <div class="container-fluid">
+            <div class="row">
+                
+<!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Project name</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+<!--
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
+              <li><a href="../navbar-static-top/">Static top</a></li>
+              <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+            </ul>
+-->
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+
+                <div class="col-sm-12 col-md-12 ">
+                    <div class="bgimage-inside">
+                        <div class="banner-color">
+                            <div class="col-md-8">
+                                <h1 class="banner-font">PIXIV FANTASIA:</h1>
+                                <h1 id="margin-left-banner" class="banner-font"> THE FALLEN KING</h1>
+                                <button type="button" class="btn btn-default banner-color">See more</button>
+                                <!--                            <p>Responsive design</p>-->
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 
-    
+
     <div class="col-sm-12 col-md-12">
-        <h2>Need an easy way to customize you website</h2>
+        <h2 id="slogan" class="font2"> And the Legend Has begun</h2>
     </div>
 
 
     <div class="container">
         <div class="row">
-            <div class="col-sm-6 col-md-6">
-                <h3>Column 1</h3>
-                <p>You dont need to have technical experience to use your product</p>
+            <div class="col-sm-4 col-md-4">
+                <img class="img-responsive" src="./images/1.jpg" alt="XXX">
+                <p class="name">Battle on the Moonlit Plains</p>
+                <button type="button" class="btn btn-default">Default</button>
             </div>
-            <div class="col-sm-6 col-md-6">
-                <h3>Column 2</h3>
-                <p>picture will be here</p>
+            <div class="col-sm-4 col-md-4">
+                <img class="img-responsive" src="./images/column%202.png" alt="XXX">
+                <p class="name">Battle of Arksand Hill </p>
+
             </div>
 
-            <div class="col-sm-6 col-md-6">
-                <h3>Column 1</h3>
-                <p>Picture will be here</p>
+            <div class="col-sm-4 col-md-4">
+                <img class="img-responsive" src="./images/column%201.png" alt="XXX">
+                <p class="name">Battle of Nolland</p>
             </div>
+            <!--
             <div class="col-sm-6 col-md-6">
                 <h3>Column 2</h3>
                 <p> A fully feature well design template that works.</p>
             </div>
+-->
 
         </div>
     </div>

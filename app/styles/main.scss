@@ -9,16 +9,66 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 // your own css/scss
 
 // your own css/scss ends
+.navbar-default {
+ outline-color: aliceblue;   
+}
+
+body{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-default{
+    background-color: rgba(255, 255, 255, 0);
+    color:aliceblue;
+    float: right;
+    margin-right: 230px;
+}
+
+.name{
+    font-family: 'Homemade Apple', cursive;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
 
 .bgimage{
     background-image:url(../images/Pixiv.Fantasia.T.full.1947171.jpg);
     background-size:cover;
+    
 }
 
 .bgimage-inside{
     padding-top: 10%;
+    padding-bottom: 15%;
 }
 
 .banner-color{
     text-color: aliceblue;
+}
+
+#slogan {
+    text-align: center;
+}
+
+.arial-font{
+    font-family:Arial;
+}
+
+#a1{
+    margin-left: 30px;
+}
+
+.banner-font{
+   font-family: 'Fredericka the Great', cursive;
+}
+
+.font2{
+    font-family: 'Architects Daughter', cursive;
+    margin-bottom: 40px;
+}
+
+#margin-left-banner{
+    margin-left: 15%;
 }
